@@ -1,0 +1,33 @@
+import "../styles/home.scss"
+import vg from "../assets/2.webp"
+
+const Home = () => {
+  return (
+    <>
+      <div className="home">
+        <main>
+          <h1>TechyStar</h1>
+          <p>Solution to all your problems.</p>
+        </main>
+      </div>
+      <div className="home2">
+        <img src={vg} alt="Graphics" />
+        <div>
+          <p>
+            We are your one and only solution to the tech problems you face
+            every day. We are leading tech company whose aim is to increase the
+            problem solving ability in children.
+          </p>
+        </div>
+      </div>
+      <div className="home3">
+        <div>
+            <h1>Who We are?</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, placeat rem atque ex iure vitae non labore omnis odio at dolorum repudiandae. Totam sunt reprehenderit facere adipisci eos eveniet mollitia assumenda atque, nemo quo laudantium saepe molestias sint vero tenetur distinctio harum impedit fuga ex placeat cumque ea perspiciatis. Provident, minima! Culpa, placeat quidem! Voluptatem sint ex autem rerum fuga at? Veritatis qui, id autem nobis quo voluptatum at veniam! Aliquam quae explicabo dicta sequi nam autem cum magnam, tempora error, quod provident, a voluptatem corporis vero tenetur. Tenetur nesciunt recusandae mollitia eveniet odio qui laudantium, molestiae fuga facere excepturi.</p>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Home
