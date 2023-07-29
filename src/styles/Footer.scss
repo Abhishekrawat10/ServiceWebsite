@@ -1,0 +1,31 @@
+@import "colors";
+
+footer {
+  background-color: $first;
+  height: 200px;
+  width: 100%;
+  padding: 2vw;
+  color:$dark;
+  display: flex;
+  justify-content: space-between;
+  >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    >h1{
+      color: $third;
+    }
+    >div{
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      a{
+        text-decoration: none;
+        color:$dark;
+        font:900 1.5vw $text2;
+      }
+    }
+  }
+}
