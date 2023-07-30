@@ -5,7 +5,7 @@ import img2 from "../assets/4.jpg";
 const Services = () => {
   return (
     <div className="services">
-      <Carousel infiniteLoop autoPlay showStatus={false} showArrows={false} interval={1000} showThumbs={false}>
+      <Carousel infiniteLoop autoPlay showStatus={false} showArrows={false} interval={3000} showThumbs={false}>
         <div>
           <img src={img1} alt="Item1" />
           <p className="legend">Full Stack</p>
